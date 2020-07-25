@@ -5,7 +5,7 @@ const autoprefixer = require("autoprefixer");
 const browserConfig = {
   entry: "./src/browser/index.js",
   output: {
-    path: __dirname,
+    path: __dirname + '/dist',
     filename: "./public/bundle.js"
   },
   devtool: "cheap-module-source-map",
