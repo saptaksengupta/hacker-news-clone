@@ -10,7 +10,7 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start-dev": "NODE_ENV=development webpack -w & NODE_ENV=development node dist/server.js",
@@ -29,7 +29,7 @@
     "extract-text-webpack-plugin": "^2.1.2",
     "file-loader": "^0.11.2",
     "postcss-loader": "^2.0.6",
-    "webpack": "^3.1.0"
+    "webpack": "^5.105.2"
   },
   "keywords": [],
   "author": "Saptak Sengupta",
